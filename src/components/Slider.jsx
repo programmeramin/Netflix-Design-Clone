@@ -27,7 +27,7 @@ const Slider = () => {
       >
         {movies.map((movie, index) => (
           <SwiperSlide key={movie.id}>
-            <div className="relative group cursor-pointer">
+            <div className="relative group cursor-pointer w-[80%] m-auto">
               {/* Movie Poster */}
               <img
                 src={movie.image}
@@ -42,7 +42,7 @@ const Slider = () => {
 
               {/* Overlay on hover */}
               <div className="absolute inset-0 opacity-0 bg-black/40 group-hover:opacity-100 transition-opacity flex items-start justify-center p-2 rounded-xl">
-                <p className="text-sm font-semibold">{movie.title}</p>
+                <p className="text-xl font-semibold font-serif text-white/70 ">{movie.title}</p>
               </div>
             </div>
           </SwiperSlide>
