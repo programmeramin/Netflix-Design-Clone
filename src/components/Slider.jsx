@@ -27,7 +27,7 @@ const Slider = () => {
       >
         {movies.map((movie, index) => (
           <SwiperSlide key={movie.id}>
-            <div className="relative group cursor-pointer">
+            <div className="relative group cursor-pointer w-[80%] m-auto">
               {/* Movie Poster */}
               <img
                 src={movie.image}
