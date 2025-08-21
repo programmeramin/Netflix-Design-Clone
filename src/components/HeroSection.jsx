@@ -16,7 +16,7 @@ const HeroSection = () => {
           {/** Backdrop blur */}
           <Header />
 
-          <div className="text-center mt-50 w-[60%] m-auto flex flex-col  md:flex-">
+          <div className="text-center mt-50 w-[80%] m-auto flex flex-col md:flex-col">
             <h1 className="font-extrabold text-5xl sm:text-4xl mb-3">
               Unlimited movies, TV shows, and more
             </h1>
