@@ -36,12 +36,12 @@ const Slider = () => {
               />
 
               {/* Number Badge like Netflix */}
-              <span className="absolute -left-4 bottom-2 text-6xl font-extrabold text-white border-black drop-shadow-lg opacity-70">
+              <span className="absolute left-4 bottom-2 text-6xl font-extrabold text-shadow-blue-400 text-blue-500 drop-shadow-lg opacity-70">
                 {index + 1}
               </span>
 
               {/* Overlay on hover */}
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center p-2 rounded-xl">
+              <div className="absolute inset-0 opacity-0 bg-black/40 group-hover:opacity-100 transition-opacity flex items-start justify-center p-2 rounded-xl">
                 <p className="text-sm font-semibold">{movie.title}</p>
               </div>
             </div>
